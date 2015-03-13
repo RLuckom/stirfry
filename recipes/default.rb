@@ -4,4 +4,8 @@
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 
-package 'tree'
+package 'tree' do
+  action :install
+end
+
+include_recipe "mongodb::default"
